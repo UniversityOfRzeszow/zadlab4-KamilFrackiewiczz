@@ -10,4 +10,11 @@ public class Prostokat {
         c=odczyt.nextInt();
        return c*b;
     }
+    public int obwodProstokat() {
+        System.out.print("Podaj bok Prostokąta=");
+        b=odczyt.nextInt();
+       System.out.print("Podaj bok Prostokąta=");
+        c=odczyt.nextInt();
+       return (2*c)+(2*b);
+    }
 }

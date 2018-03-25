@@ -9,4 +9,9 @@ public class Szescian {
          a=odczyt.nextInt();
          return (int)(6*(a*a));
      }
+     public int objetoscSzescian(){
+         System.out.print("Podaj bok szescianu=");
+         a=odczyt.nextInt();
+         return (int)(a*a*a);
+     }
 }

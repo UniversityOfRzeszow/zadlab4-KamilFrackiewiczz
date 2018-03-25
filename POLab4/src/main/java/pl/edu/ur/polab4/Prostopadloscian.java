@@ -13,4 +13,13 @@ public class Prostopadloscian {
          c=odczyt.nextInt();
          return (int)((2*a*b)+(2*a*c)+(2*c*b));
      }
+     public int objetoscProstopadloscian(){
+         System.out.print("Podaj bok=");
+         a=odczyt.nextInt();
+         System.out.print("Podaj drugi bok sciany=");
+         b=odczyt.nextInt();
+         System.out.print("Podaj wysokosc=");
+         c=odczyt.nextInt();
+         return (int)(a*b*c);
+     }
 }

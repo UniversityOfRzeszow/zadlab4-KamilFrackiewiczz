@@ -9,5 +9,10 @@ public class Kula {
         promien=odczyt.nextInt();
        return (int) (4*3.14*(promien*promien));
     }
+    public int objetoscKula() {
+         System.out.print("Podaj promien kuli=");
+        promien=odczyt.nextInt();
+       return (int) (4/3*3.14*(promien*promien*promien));
+    }
     
 }

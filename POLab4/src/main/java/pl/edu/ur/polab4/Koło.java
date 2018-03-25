@@ -9,4 +9,9 @@ public class Koło {
          promień=odczyt.nextInt();
          return (int)(3.14*promień*promień);
      }
+      public int obwodKolo(){
+          System.out.print("Podaj promien koła=");
+          promień=odczyt.nextInt();
+          return (int) (2*3.14*promień);
+      }
 }

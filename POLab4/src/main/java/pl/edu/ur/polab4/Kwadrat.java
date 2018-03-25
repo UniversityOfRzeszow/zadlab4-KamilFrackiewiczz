@@ -9,5 +9,9 @@ public class Kwadrat {
         a=odczyt.nextInt();
        return a*a;
     }
-    
+    public int obwodKwadrat(){
+        System.out.println("Podaj bok kwadratu=");
+        a=odczyt.nextInt();
+       return 4*a;
+    }
 }
